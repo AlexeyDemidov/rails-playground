@@ -14,7 +14,7 @@ development:
   reconnect: false
   database: playground_development
   pool: 5
-  username: root
+  username: playground
   password:
   host: localhost
 
@@ -27,7 +27,7 @@ test:
   reconnect: false
   database: playground_test
   pool: 5
-  username: root
+  username: playground
   password:
   host: localhost
 
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: playground_production
   pool: 5
-  username: root
+  username: playground
   password:
   host: localhost
