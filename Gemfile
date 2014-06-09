@@ -41,6 +41,7 @@ gem 'resque-web', require: 'resque_web'
 gem 'resque-scheduler'
 # gem 'resque_mailer'
 # gem 'resque-lock-timeout'
+gem 'feedjira'
 
 group :development do
   gem 'guard'
