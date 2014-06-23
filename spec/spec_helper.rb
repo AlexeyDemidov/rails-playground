@@ -1,5 +1,17 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV['RAILS_ENV'] ||= 'test'
+# Coveralls.wear!('rails')
+
+def zeus_running?
+  File.exist? '.zeus.sock'
+end
+
+unless zeus_running?
+  require 'simplecov'
+  require 'coveralls'
+  SimpleCov.start 'rails'
+end
+
 require File.expand_path('../../config/environment', __FILE__)
 require 'rspec/rails'
 
