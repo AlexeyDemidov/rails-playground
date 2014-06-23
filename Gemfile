@@ -43,6 +43,8 @@ gem 'resque-scheduler'
 # gem 'resque-lock-timeout'
 gem 'feedjira'
 
+gem 'rack-dev-mark'
+
 group :development do
   gem 'guard'
   gem 'guard-rubocop'

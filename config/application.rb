@@ -75,5 +75,7 @@ module Playground
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.rack_dev_mark.enable = !Rails.env.production?
   end
 end
