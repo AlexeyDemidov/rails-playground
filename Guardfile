@@ -1,6 +1,6 @@
 # rubocop:disable Style/FileName
 # rubocop:disable Style/RegexpLiteral
-# rubocop:disable Style/LineLength
+# rubocop:disable Metrics/LineLength
 
 guard :rspec do
   watch(%r{^spec/.+_spec\.rb$})
