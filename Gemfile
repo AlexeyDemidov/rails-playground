@@ -44,6 +44,7 @@ gem 'resque-scheduler'
 gem 'feedjira'
 
 gem 'rack-dev-mark'
+gem 'rollbar'
 
 group :development do
   gem 'guard'
