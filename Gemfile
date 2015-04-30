@@ -82,7 +82,6 @@ group :development do
   gem 'quiet_assets'
   gem 'rack-mini-profiler'
   gem 'xray-rails'
-
 end
 
 group :test, :development do
