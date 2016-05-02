@@ -71,7 +71,7 @@ GEM
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
     capistrano-harrow (0.4.0)
-    capybara (2.7.0)
+    capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
