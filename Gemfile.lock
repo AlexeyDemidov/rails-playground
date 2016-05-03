@@ -403,7 +403,7 @@ GEM
     ruby2ruby (2.3.0)
       ruby_parser (~> 3.1)
       sexp_processor (~> 4.0)
-    ruby_dep (1.1.0)
+    ruby_dep (1.2.0)
     ruby_parser (3.8.1)
       sexp_processor (~> 4.1)
     rufus-scheduler (3.2.0)
@@ -483,7 +483,7 @@ GEM
     vcr (3.0.1)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    webmock (2.0.0)
+    webmock (2.0.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
