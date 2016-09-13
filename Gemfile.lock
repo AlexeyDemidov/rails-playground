@@ -33,7 +33,7 @@ GEM
       ice_nine (~> 0.11.0)
       memoizable (~> 0.4.0)
     addressable (2.4.0)
-    airbrussh (1.1.0)
+    airbrussh (1.1.1)
       sshkit (>= 1.6.1, != 1.7.0)
     arel (3.0.3)
     arrayfields (4.9.2)
@@ -44,9 +44,9 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    brakeman (3.3.5)
+    brakeman (3.4.0)
     builder (3.0.4)
-    bullet (5.3.0)
+    bullet (5.4.0)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.10.0)
     bundler-audit (0.5.0)
@@ -452,7 +452,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
-    unicode-display_width (1.1.0)
+    unicode-display_width (1.1.1)
     unicorn (5.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
@@ -474,7 +474,7 @@ GEM
       hashdiff
     xpath (2.0.0)
       nokogiri (~> 1.3)
-    xray-rails (0.1.21)
+    xray-rails (0.1.22)
       coffee-rails
       rails (>= 3.1.0)
     yard (0.9.5)
