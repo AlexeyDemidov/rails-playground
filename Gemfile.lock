@@ -107,9 +107,6 @@ GEM
     docile (1.1.5)
     domain_name (0.5.20170404)
       unf (>= 0.0.5, < 1.0.0)
-    email_spec (1.6.0)
-      launchy (~> 2.1)
-      mail (~> 2.2)
     equalizer (0.0.11)
     erubis (2.7.0)
     et-orbi (1.0.4)
@@ -209,7 +206,7 @@ GEM
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.12)
-    mail (2.5.4)
+    mail (2.5.5)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     main (6.2.2)
@@ -500,7 +497,6 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   coveralls
   database_cleaner
-  email_spec
   factory_girl_rails
   faker
   feedjira
@@ -513,6 +509,7 @@ DEPENDENCIES
   guard-rubocop
   guard-zeus
   jquery-rails
+  mail (>= 2.5.5)
   marginalia
   meta_request
   metric_fu
@@ -546,6 +543,7 @@ DEPENDENCIES
   webmock
   xray-rails
   zeus
+
 
 BUNDLED WITH
    1.11.2

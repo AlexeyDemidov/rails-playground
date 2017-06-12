@@ -100,5 +100,4 @@ group :test do
   gem 'webmock'
   gem 'timecop'
   gem 'database_cleaner'
-  gem 'email_spec'
-end
+gem 'mail', '>= 2.5.5'end
