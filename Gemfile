@@ -101,4 +101,4 @@ group :test do
   gem 'timecop'
   gem 'database_cleaner'
 gem 'mail', '>= 2.5.5'end
-gem 'nokogiri', '>= 1.8.1'
+gem 'nokogiri', '>= 1.8.2'
