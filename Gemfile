@@ -103,3 +103,4 @@ group :test do
 gem 'mail', '>= 2.5.5'end
 gem 'nokogiri', '>= 1.8.2'
 gem 'rack-protection', '~> 1.5.4'
+gem 'loofah', '>= 2.2.1'
