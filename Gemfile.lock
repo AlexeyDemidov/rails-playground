@@ -275,7 +275,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
-    pry-doc (0.13.5)
+    pry-doc (1.0.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
     pry-rails (0.3.8)
@@ -485,7 +485,7 @@ GEM
     vcr (4.0.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    webmock (3.4.2)
+    webmock (3.5.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
@@ -562,4 +562,4 @@ DEPENDENCIES
   zeus
 
 BUNDLED WITH
-   1.16.2
+   1.17.2
