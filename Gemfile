@@ -86,7 +86,7 @@ end
 
 group :test, :development do
   gem 'rspec-rails'
-  gem 'rspec', '~>2'
+  gem 'rspec', '~>3'
   gem 'fuubar'
   gem 'faker'
   gem 'factory_girl_rails'
