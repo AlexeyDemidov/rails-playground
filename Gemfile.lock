@@ -51,7 +51,7 @@ GEM
       thor (~> 0.18)
     cane (2.6.2)
       parallel
-    capistrano (3.11.0)
+    capistrano (3.11.1)
       airbrussh (>= 1.0.0)
       i18n
       rake (>= 10.0.0)
