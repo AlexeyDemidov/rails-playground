@@ -440,7 +440,7 @@ GEM
       kgio (~> 2.6)
       raindrops (~> 0.7)
     uniform_notifier (1.13.0)
-    vcr (5.0.0)
+    vcr (5.1.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
     webmock (3.8.0)
