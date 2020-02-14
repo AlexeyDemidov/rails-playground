@@ -342,7 +342,7 @@ GEM
       rspec-mocks (>= 2.5.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rollbar (2.23.2)
+    rollbar (2.24.0)
     roodi (3.3.1)
       ruby_parser (~> 3.2, >= 3.2.2)
     rspec (2.99.0)
