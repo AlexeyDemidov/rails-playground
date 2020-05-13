@@ -35,7 +35,7 @@ GEM
     arel (3.0.3)
     arrayfields (4.9.2)
     ast (2.4.0)
-    better_errors (2.7.0)
+    better_errors (2.7.1)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
       rack (>= 0.9.0)
