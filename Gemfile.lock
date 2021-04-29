@@ -352,7 +352,7 @@ GEM
       rspec-mocks (>= 2.5.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rollbar (3.1.1)
     roodi (5.0.0)
       ruby_parser (~> 3.2, >= 3.2.2)
