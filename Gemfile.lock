@@ -357,7 +357,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rexml (3.2.5)
-    rollbar (3.1.2)
+    rollbar (3.2.0)
     roodi (5.0.0)
       ruby_parser (~> 3.2, >= 3.2.2)
     rspec (2.99.0)
