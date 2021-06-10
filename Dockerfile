@@ -8,3 +8,6 @@ ENV APP_HOME /srv/playground
 WORKDIR $APP_HOME
 
 RUN gem install bundler
+COPY Gemfile .
+COPY Gemfile.lock .
+RUN bundle install --jobs 12
