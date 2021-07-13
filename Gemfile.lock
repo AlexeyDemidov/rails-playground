@@ -124,7 +124,7 @@ GEM
     faker (2.2.1)
       i18n (>= 0.8)
     fattr (2.4.0)
-    feedjira (3.2.0)
+    feedjira (3.1.2)
       loofah (>= 2.3.1)
       sax-machine (>= 1.0)
     ffi (1.15.3)
