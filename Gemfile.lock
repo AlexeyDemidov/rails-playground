@@ -102,7 +102,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.10.0)
     erubis (2.7.0)
-    et-orbi (1.2.5)
+    et-orbi (1.2.6)
       tzinfo
     eventmachine (1.2.7)
     execjs (2.8.1)
