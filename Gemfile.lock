@@ -193,7 +193,7 @@ GEM
     listen (3.5.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.13.0)
+    loofah (2.14.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.2.8)
@@ -287,9 +287,9 @@ GEM
       railties (= 3.2.22.5)
     rails-footnotes (4.1.8)
       rails (>= 3.2)
-    rails_best_practices (1.22.1)
+    rails_best_practices (1.23.1)
       activesupport
-      code_analyzer (>= 0.5.2)
+      code_analyzer (~> 0.5.5)
       erubis
       i18n
       json
