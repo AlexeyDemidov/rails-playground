@@ -1,0 +1,153 @@
+---
+CommitMsg:
+  HardTabs:
+    enabled: true
+
+  MessageFormat:
+    description: 'Check commit message matches expected pattern'
+    pattern: '(.+)[|](.+)[|](.+)'
+    expected_pattern_message: '<Issue Id> | <Commit Message Description> | <Developer(s)>'
+    sample_message: 'DEFECT-1234 | Refactored Onboarding flow | John Doe'
+    enabled: false
+  SpellCheck:
+    enabled: true
+    description: 'Check for misspelled words'
+    required_executable: 'hunspell'
+    flags: ['-a']
+
+PreCommit:
+  ALL:
+    on_warn: fail
+  CustomHook:
+    enabled: true
+    required_executable: detect-secrets-hook
+    flags: ['--baseline', '.secrets.baseline', '--hex-limit', '3', '--base64-limit', '4.5']
+    exlcude:
+      - '**/*.css'
+  BundleAudit:
+    enabled: false
+  BundleCheck:
+    enabled: false
+  CaseConflicts:
+    enabled: false
+    description: 'Check for case-insensitivity conflicts'
+  BundleOutdated:
+    enabled: false
+  ExecutePermissions:
+    enabled: true
+    exclude:
+      - 'script/backgroundrb.sh'
+      - 'script/rooster'
+      - 'script/unicorn'
+  Fasterer:
+    enabled: true
+  FileSize:
+    enabled: false
+    description: 'Check for oversized files'
+    size_limit_bytes: 1_000_000
+  FixMe:
+    enabled: false
+  Flay:
+    enabled: false
+  ForbiddenBranches:
+    enabled: false
+    quiet: true
+    branch_patterns: ['master']
+  Hadolint:
+    enabled: true
+  HamlLint:
+    enabled: false
+  HardTabs:
+    enabled: true
+    exclude:
+      - 'spec/files/**/*'
+      - 'spec/fixtures/**/*'
+  LicenseFinder:
+    enabled: true
+  LicenseHeader:
+    enabled: false
+  LocalPathsInGemfile:
+    enabled: true
+  MergeConflicts:
+    enabled: false
+    description: 'Check for merge conflicts'
+    quiet: true
+    required_executable: 'grep'
+    flags: ['-IHn', "^<<<<<<<[ \t]"]
+  Pronto:
+    enabled: true
+  RailsBestPractices:
+    enabled: false
+  RailsSchemaUpToDate:
+    enabled: true
+  Reek:
+    enabled: false
+    description: 'Analyze with Reek'
+    required_executable: 'reek'
+    flags: ['--single-line', '--no-color', '--force-exclusion']
+    install_command: 'gem install reek'
+    include:
+      - '**/*.gemspec'
+      - '**/*.rake'
+      - '**/*.rb'
+      - '**/Gemfile'
+      - '**/Rakefile'
+  RuboCop:
+    enabled: true
+  ShellCheck:
+    enabled: true
+  TrailingWhitespace:
+    enabled: true
+    exclude:
+      - 'spec/files/**/*'
+      - 'spec/fixtures/**/*'
+  LineEndings:
+    enabled: true
+    exclude:
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.gif'
+      - 'spec/files/**/*'
+      - 'spec/fixtures/**/*'
+  YamlLint:
+    flags: ['--format=parsable']
+    enabled: true
+  GitLeaks:
+    enabled: true
+    required_executable: 'gitleaks'
+    flags: ['protect', '-v', '--staged']
+
+PrePush:
+  ProtectedBranches:
+    enabled: true
+    branches: ['master']
+  Brakeman:
+    enabled: false
+  RSpec:
+    command: ['zeus', 'test']
+    enabled: false
+
+PreRebase:
+  MergedCommits:
+    enabled: false
+
+PostCheckout:
+  BundleInstall:
+    enabled: true
+    description: 'Install Bundler dependencies'
+    requires_files: true
+    required_executable: 'bundle'
+    install_command: 'gem install bundler'
+    flags: ['install']
+    include:
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - '*.gemspec'
+
+PostMerge:
+  BundleInstall:
+    enabled: false
+
+PostRewrite:
+  BundleInstall:
+    enabled: false
