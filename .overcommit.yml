@@ -75,7 +75,7 @@ PreCommit:
     required_executable: 'grep'
     flags: ['-IHn', "^<<<<<<<[ \t]"]
   Pronto:
-    enabled: true
+    enabled: false
   RailsBestPractices:
     enabled: false
   RailsSchemaUpToDate:
