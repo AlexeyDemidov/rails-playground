@@ -287,7 +287,7 @@ GEM
       railties (= 3.2.22.5)
     rails-footnotes (4.1.8)
       rails (>= 3.2)
-    rails_best_practices (1.23.1)
+    rails_best_practices (1.23.2)
       activesupport
       code_analyzer (~> 0.5.5)
       erubis
