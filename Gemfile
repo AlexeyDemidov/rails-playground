@@ -64,7 +64,7 @@ group :development do
 
   gem 'listen', '3.5.0'
 
-  gem 'brakeman', '~> 4.10.1', require: false
+  gem 'brakeman', '~> 5.4.0', require: false
   gem 'bundler-audit', require: false
   gem 'metric_fu'
   gem 'parallel', '~> 1.19.2'
