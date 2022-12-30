@@ -49,7 +49,7 @@ gem 'redis-namespace', '~>1.6.0'
 gem 'feedjira', '~>3.1.2'
 # gem 'faraday', '~> 0.11.0'
 
-gem 'nokogiri', '~>1.10.10'
+gem 'nokogiri', '~>1.13.10'
 gem 'rack-dev-mark'
 gem 'redis', '~>4.4.0'
 gem 'rollbar'
