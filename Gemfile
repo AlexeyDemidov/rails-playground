@@ -114,6 +114,6 @@ group :test do
   gem 'resque_spec'
   gem 'simplecov', '~> 0.17.1', require: false
   gem 'timecop'
-  gem 'vcr', '~> 6.0.0'
+  gem 'vcr', '~> 6.1.0'
   gem 'webmock'
 end
