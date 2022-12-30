@@ -70,7 +70,7 @@ group :development do
   gem 'parallel', '~> 1.19.2'
   gem 'rails_best_practices', require: false
   gem 'reek', '~> 5.6.0'
-  gem 'rubocop', '~>0.81.0', require: false
+  gem 'rubocop', '~>0.93.1', require: false
 
   gem 'zeus'
 
