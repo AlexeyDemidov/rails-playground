@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+ruby '~> 2.3.8'
+
 gem 'rails', '~> 3.2.18'
 
 # Bundle edge Rails instead:
@@ -101,6 +103,7 @@ group :test, :development do
   gem 'faker'
   gem 'fuubar'
   gem 'license_finder', '6.15.0'
+  gem 'rubyzip', '1.3.0'
   gem 'rspec', '~>2'
   gem 'rspec-rails'
 end
