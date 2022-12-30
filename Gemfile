@@ -59,7 +59,7 @@ group :development do
   gem 'guard-brakeman'
   gem 'guard-rails_best_practices'
   gem 'guard-rspec'
-  gem 'guard-rubocop', '1.3.0'
+  gem 'guard-rubocop', '1.5.0'
   gem 'guard-zeus'
 
   gem 'listen', '3.5.0'
