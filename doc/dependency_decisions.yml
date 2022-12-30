@@ -1,0 +1,103 @@
+---
+- - :permit
+  - MIT
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:00:20.700922453 Z
+- - :permit
+  - ruby
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:00:42.853986293 Z
+- - :permit
+  - Apache 2.0
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:00:54.612907463 Z
+- - :permit
+  - BSD
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:01:12.103380784 Z
+- - :permit
+  - New BSD
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:01:15.391245739 Z
+- - :permit
+  - Simplified BSD
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:01:22.156591877 Z
+- - :approve
+  - bundler-audit
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:01:51.325538630 Z
+- - :approve
+  - unicorn
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:02:03.472009742 Z
+- - :permit
+  - 2-clause BSDL
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:02:17.758769537 Z
+- - :permit
+  - ISC
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:05.757990253 Z
+- - :approve
+  - brakeman
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:15.046486072 Z
+- - :approve
+  - kgio
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:20.864019521 Z
+- - :approve
+  - map
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:23.954523586 Z
+- - :approve
+  - launchy
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:29.292348187 Z
+- - :approve
+  - arrayfields
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:03:50.143084859 Z
+- - :approve
+  - guard-rails_best_practices
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:04:01.427654942 Z
+- - :approve
+  - raindrops
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-12-30 18:04:08.199339196 Z
