@@ -93,7 +93,7 @@ group :development do
   gem 'binding_of_caller' # required by better_errors
   gem 'meta_request' # for rails panel
   gem 'quiet_assets'
-  gem 'rack-mini-profiler', '2.0.2'
+  gem 'rack-mini-profiler', '3.0.0'
   gem 'rails-footnotes'
   gem 'xray-rails'
 end
