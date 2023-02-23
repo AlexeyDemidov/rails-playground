@@ -464,7 +464,7 @@ GEM
       kgio (~> 2.6)
       raindrops (~> 0.7)
     uniform_notifier (1.16.0)
-    vcr (6.0.0)
+    vcr (6.1.0)
     vegas (0.1.11)
       rack (>= 1.0.0)
     webmock (3.18.1)
@@ -551,7 +551,7 @@ DEPENDENCIES
   timecop
   uglifier (>= 1.0.3)
   unicorn
-  vcr (~> 6.0.0)
+  vcr (~> 6.1.0)
   webmock
   xray-rails
   zeus
