@@ -104,7 +104,7 @@ group :test, :development do
   gem 'fuubar'
   gem 'license_finder', '6.15.0'
   gem 'rubyzip', '1.3.0'
-  gem 'rspec', '~>2'
+  gem 'rspec', '~>3'
   gem 'rspec-rails'
 end
 
