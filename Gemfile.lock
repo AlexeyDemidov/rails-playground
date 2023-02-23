@@ -162,9 +162,9 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
-    guard-rubocop (1.3.0)
+    guard-rubocop (1.5.0)
       guard (~> 2.0)
-      rubocop (~> 0.20)
+      rubocop (< 2.0)
     guard-zeus (2.0.1)
       guard (~> 2.0)
       guard-compat (~> 1.1)
@@ -509,7 +509,7 @@ DEPENDENCIES
   guard-brakeman
   guard-rails_best_practices
   guard-rspec
-  guard-rubocop (= 1.3.0)
+  guard-rubocop (= 1.5.0)
   guard-zeus
   jquery-rails
   license_finder (= 6.15.0)
