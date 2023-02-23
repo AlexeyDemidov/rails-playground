@@ -115,7 +115,7 @@ group :test do
   gem 'email_spec'
   gem 'public_suffix', '~> 4.0'
   gem 'resque_spec'
-  gem 'simplecov', '~> 0.17.1', require: false
+  gem 'simplecov', '~> 0.22.0', require: false
   gem 'timecop'
   gem 'vcr', '~> 6.0.0'
   gem 'webmock'
